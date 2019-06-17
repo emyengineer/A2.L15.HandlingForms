@@ -19,9 +19,10 @@ export class AppComponent {
   //   console.log(form);
   // }
 
-
+// Accessing the Form with @ViewChild
  onSubmit() {
    console.log(this.signupForm);
  }
+
 
 }
